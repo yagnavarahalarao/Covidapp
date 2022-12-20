@@ -1,0 +1,82 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-container{
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 20vw;
+    list-style: none;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px  lightblue;
+    
+}
+.card-inside-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-container:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(230, 129, 27);
+}
+
+
+.text-content{
+    font-size: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.state-heading{
+    font-size: 100%;
+    text-align: center;
+}
+.link-style{
+    color: black;
+    text-decoration: none;
+    background-color: cornsilk;
+    color: red;
+    padding: 5px;
+    width: 45%;
+    font-size: 15px;
+    border: solid 2px black;
+}
+.link-style-map{
+    color: black;
+    text-decoration: none;
+    background-color: cornsilk;
+    width: 45%;
+    padding: 2px;
+    font-size: 15px;
+    border: solid 1px gray;
+    margin-left: 1%;
+}
+.input-style{
+    width: 50%;
+    margin-top: 1%;
+    padding: 0.25%;
+    height: 1%;
+}
+
+.Sort-button{
+    margin-top: 1%;
+    width: 20%;
+    background-color: cornsilk;
+    margin-left: 9%;
+    border: solid 1px gray;
+    padding: 0.25%;
+    height: 1%;
+}
+
+.share-button{
+    background-color: cornsilk;
+    color: red;
+    padding: 5px;
+    width: 25%;
+}

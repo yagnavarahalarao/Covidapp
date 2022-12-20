@@ -1,0 +1,15 @@
+.district-top{
+    display: flex;
+    justify-content: space-between;
+}
+.back-to-state{
+    margin-top: 2%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.state-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-left: 15%;
+}

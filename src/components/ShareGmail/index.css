@@ -1,0 +1,39 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+.input-label{
+    width: 20vh;
+    display: inline-block;
+    
+}
+.input-container{
+    margin-bottom: 1%;   
+}
+.input-type{
+    width: 70vh;
+}
+
+.button-type{
+    background-color:white;
+    color: orange;
+    border-radius: 5px;
+    border: solid 2px lightblue;
+    width: 10%;
+    height: 15%;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.error-msg{
+    color: red;
+    font-size: small;
+}
+
+.submit-button{
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+}
